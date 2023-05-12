@@ -1,3 +1,5 @@
+import pygame
+
 # Define Colors Using RGB Codes
 WHITE      = (255, 255, 255)
 BLACK      = (  0,   0,   0)
@@ -14,7 +16,10 @@ SILVER     = (192, 192, 192)
 PINK       = (255, 105, 180)
 
 # Define Basic Window Properties
-WIDTH = 600
-HEIGHT = 600
+WIDTH = 800
+HEIGHT = 800
 FPS = 60
 TITLE = "My First Graphics"
+
+# Choose a Font
+FONT = pygame.font.match_font('courier')
